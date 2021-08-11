@@ -9,6 +9,6 @@ entries:
     name: social-distancing-retail
     type: application
     urls:
-    - https://thisisjasleen.github.io/dev-mcss/social-distancing-retail-0.1.0.tgz
+    - https://thisisjasleen.github.io/dev-mcss/helm-charts/social-distancing-retail-0.1.0.tgz
     version: 0.1.0
 generated: "2021-08-11T16:34:01.972765749+05:30"
