@@ -34,7 +34,7 @@ spec:
             memory: {{ .Values.memory }}
         env:
           - name: GF_AUTH_BASIC_ENABLED
-            value: "false"
+            value: "true"
           - name: GF_SECURITY_ADMIN_USER
             valueFrom:
               secretKeyRef:
@@ -46,10 +46,10 @@ spec:
                 name: grafana
                 key: admin-password
           - name: GF_AUTH_ANONYMOUS_ENABLED
-            value: "false"
+            value: "true"
         readinessProbe:
           httpGet:
-            path: /
+            path: /login
             port: 3000
         volumeMounts:
         - mountPath: /etc/grafana/provisioning/datasources/datasources.yaml

@@ -8,6 +8,7 @@ datasources:
   type: prometheus
   access: proxy
   orgID: 2
+  basicAuth: false
   url: https://prometheus.monitoring.svc:8080
   editable: false
   version: 1
