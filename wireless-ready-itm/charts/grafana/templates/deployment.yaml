@@ -47,7 +47,7 @@ spec:
             value: "false"
         readinessProbe:
           httpGet:
-            path: /
+            #path: /
             port: 3000
         volumeMounts:
         - mountPath: /etc/grafana/provisioning/datasources/datasources.yaml
