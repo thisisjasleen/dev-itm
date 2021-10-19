@@ -7,8 +7,7 @@ datasources:
 - name: PrometheusITM
   type: prometheus
   access: proxy
-  # orgID: 2
-  basicAuth: false
+  orgID: 2
   url: https://prometheus.monitoring.svc:8080
   editable: false
   version: 1
