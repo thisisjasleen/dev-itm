@@ -33,8 +33,6 @@ spec:
             cpu: {{ .Values.cpu }}
             memory: {{ .Values.memory }}
         env:
-          - name: GF_AUTH_BASIC_ENABLED
-            value: "true"
           - name: GF_SECURITY_ADMIN_USER
             valueFrom:
               secretKeyRef:
