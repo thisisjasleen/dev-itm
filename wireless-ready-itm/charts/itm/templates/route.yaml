@@ -6,6 +6,6 @@ metadata:
 spec:
   to:
     kind: Service
-    name: itm_svc
+    name: itmsvc
   port:
     targetPort: 8000

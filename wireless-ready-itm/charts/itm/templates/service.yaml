@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: itm_svc
+  name: itmsvc
   namespace: {{ .Values.global.namespace }}
   labels:
     {{- include "itm.labels" . | nindent 4 }}
