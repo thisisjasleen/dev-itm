@@ -3,12 +3,12 @@ entries:
   wireless-ready-itm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-20T15:20:59.470831101+05:30"
+    created: "2021-10-21T10:01:09.510226194+05:30"
     description: A Helm chart for Kubernetes
-    digest: ab7aec8e767cc204bc2ab893c0e7531d7bff00d4ea5cc777d48211d43430b922
+    digest: 8cf8364a3f72bbfe175f18d521a6f54d57ad46e23f22c7a980a2e7a7f357e81e
     name: wireless-ready-itm
     type: application
     urls:
     - https://thisisjasleen.github.io/dev-itm/wireless-ready-itm-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-20T15:20:59.469341749+05:30"
+generated: "2021-10-21T10:01:09.508793251+05:30"
