@@ -7,6 +7,6 @@ spec:
   to:
     kind: Service
     name: grafana
-  path: /dashboard
+  path: /
   port:
     targetPort: 3000
