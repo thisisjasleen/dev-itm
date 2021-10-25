@@ -7,6 +7,6 @@ spec:
   to:
     kind: Service
     name: itmsvc
-  #path: /get_all_streams
+  path: /get_all_streams
   port:
     targetPort: 8000
