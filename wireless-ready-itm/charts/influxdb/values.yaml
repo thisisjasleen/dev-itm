@@ -29,8 +29,8 @@ securityContext:
 service:
   type: NodePort
   port: 8086
-  nodePort: 30701
-  targetPort: 8086
+  #nodePort: 30701
+  #targetPort: 8086
 
 ingress:
   enabled: false
